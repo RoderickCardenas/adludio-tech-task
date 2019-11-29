@@ -1,22 +1,67 @@
-.App {
-  text-align: center;
+.container {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-logo {
-  height: 40vmin;
+body {
+  background-image: url('https://bannersforapp.s3.eu-west-2.amazonaws.com/adludio-assets/asset2.png');
+  background-size: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h4>a{
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.login-container {
+  max-width: 80%;
+  height: 60vh;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.imageDiv-text {
+  color: white;
+}
+
+.image-div {
+  border-radius: 25px 0px 0px 25px;
+  background-image: url('https://bannersforapp.s3.eu-west-2.amazonaws.com/adludio-assets/asset1.jpg');
+  width: 80%;
+  background-size: 280%;
+  background-position: 62% 70%;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.imageDiv-text-container {
+  margin: 20% 0% 0% 15%;
+}
+
+.loginDiv {
+  border-radius: 0px 25px 25px 0px;
+  background-color: white;
+  width: 80%;
+}
+
+.adludio-logo {
+  margin: 15% 0% 0% 15%;
+  width: 25%;
+}
+
+.google-button {
+  width: 50%;
+  justify-content: center;
+}
+
+.register-button {
+  border-radius: 25px;
+  color: white;
+  background-color: purple;
+  border-color: purple;
+  width: 25%;
+  height: 22%;
+  font-size: 20px;
 }
