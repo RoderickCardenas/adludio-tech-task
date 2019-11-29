@@ -13,6 +13,15 @@ h4>a{
   color: white;
 }
 
+.login-container {
+  max-width: 80%;
+  height: 60vh;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
 .imageDiv-text {
   color: white;
 }
@@ -22,17 +31,24 @@ h4>a{
   background-image: url('https://bannersforapp.s3.eu-west-2.amazonaws.com/adludio-assets/asset1.jpg');
   width: 80%;
   background-size: 280%;
-  background-position: 62% 90%;
+  background-position: 62% 70%;
   background-repeat: no-repeat;
+  text-align: left;
 }
 
-.login-container {
-  max-width: 80%;
-  height: 60vh;
-  margin-top: 20%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
+.imageDiv-text-container {
+  margin: 20% 0% 0% 15%;
+}
+
+.loginDiv {
+  border-radius: 0px 25px 25px 0px;
+  background-color: white;
+  width: 80%;
+}
+
+.adludio-logo {
+  margin: 15% 0% 0% 15%;
+  width: 25%;
 }
 
 .google-button {
