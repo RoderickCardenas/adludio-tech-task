@@ -8,3 +8,37 @@ body {
   background-image: url('https://bannersforapp.s3.eu-west-2.amazonaws.com/adludio-assets/asset2.png');
   background-size: 100%;
 }
+
+h4>a{
+  color: white;
+}
+
+.imageDiv-text {
+  color: white;
+}
+
+.image-div {
+  background-image: url('https://bannersforapp.s3.eu-west-2.amazonaws.com/adludio-assets/asset1.jpg');
+}
+
+.login-container {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.google-button {
+  width: 50%;
+  justify-content: center;
+}
+
+.register-button {
+  border-radius: 25px;
+  color: white;
+  background-color: purple;
+  border-color: purple;
+  width: 25%;
+  height: 22%;
+  font-size: 20px;
+}

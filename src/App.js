@@ -6,8 +6,10 @@ import Login from './components/Login'
 const App = () => {
   return (
     <section className='container'>
-      <ImageDiv />
-      <Login />
+      <div className='login-container'>
+        <ImageDiv />
+        <Login />
+      </div>
     </section>
   )
 }

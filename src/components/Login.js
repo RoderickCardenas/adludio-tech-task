@@ -1,14 +1,18 @@
 import React from 'react'
+import { GoogleLogin } from 'react-google-login'
 
 const Login = () => {
   return (
     <div className='loginDiv'>
-      <label>Full Name</label>
-      <input type='text' />
-      <label>E-mail</label>
-      <input type='text' />
-      <label>Password</label>
-      <input type='password' />
+      <h3>Register</h3>
+      <label className='login-label'>Full Name</label>
+      <input className='login-input' type='text' />
+      <label className='login-label'>E-mail</label>
+      <input className='login-input' type='text' />
+      <label className='login-label'>Password</label>
+      <input className='login-input' type='password' />
+      <button className='register-button'>REGISTER</button>
+      <GoogleLogin className='google-button' />
     </div>
   )
 }
