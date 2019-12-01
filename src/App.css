@@ -7,7 +7,7 @@
   background-size: 100%;
   background-repeat: no-repeat;
   border-radius: 25px;
-  background-position: -366px -100px;
+  background-position: -366px -95px;
 }
 
 body {
@@ -21,7 +21,7 @@ h4>a{
   color: white;
 }
 
-.text {
+.main-text-container {
   color: white;
   float: left;
   width: 40%;
@@ -92,38 +92,38 @@ input {
   font-size: 15px;
 }
 
-.reg-google-buttons {
+.buttons-container {
   margin: 30px auto 0px auto;
   width: 400px;
 }
 
-.reg-button {
+.register-button-container {
   width: 100px;
   margin: 0px auto 10px auto;
 }
 
-.goog-button {
+.google-button-container {
   justify-content: center;
   text-align: center;
   margin: 0px auto 10px auto;
 }
 
-.register-text {
+.login-text {
   margin: 30px 0px 20px 0px;
 }
 
-.register-text label{
+.login-text label{
   color: #7e7e7e;
 }
 
-.imageDiv-text {
+.header-text {
   margin: 40px 0px 0px 0px;
   font-size: 32px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
 }
 
-.imageDiv-p-text {
+.paragraph-text-container {
   margin: 20px 0px 0px 0px;
 }
 
