@@ -10,7 +10,7 @@ const Login = () => {
           src='https://bannersforapp.s3.eu-west-2.amazonaws.com/adludio-assets/asset3.png'
           alt=''
         />
-        <div className='register-text'>
+        <div className='login-text'>
           <label>Register</label>
         </div>
         <div className='input-div'>
@@ -25,11 +25,11 @@ const Login = () => {
           <span className='login-span'>Password</span>
           <input className='login-input' type='password' />
         </div>
-        <div className='reg-google-buttons'>
-          <div className='reg-button'>
+        <div className='buttons-container'>
+          <div className='register-button-container'>
             <button className='register-button'>REGISTER</button>
           </div>
-          <div className='goog-button'>
+          <div className='google-button-container'>
             <GoogleLogin className='google-button' />
           </div>
         </div>
